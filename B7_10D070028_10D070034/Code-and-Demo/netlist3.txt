@@ -1,0 +1,10 @@
+not1_1 n1 in1
+not1_2 n2 in7
+and2_1 n3 n1 in2
+and2_2 n4 in3 in4
+or2_1 n5 in5 in6
+or2_2 n6 n2 in8
+nand2_1 n7 n3 n4
+nor2_1 n8 in9 n5
+nand2_2 out2 in10 n6
+nor2_2 out1 n7 n8
