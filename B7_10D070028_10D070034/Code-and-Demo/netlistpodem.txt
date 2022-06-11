@@ -1,0 +1,41 @@
+not1 n1 in1 
+and2_1 n2 in2 in3 
+not2 n3 in4 
+nand2_1 n4 in2 n1 
+nand2_2 n5 in1 n2 
+nand2_3 n6 n2 in4  
+nand2_4 n7 n3 in3 
+nand4_1 out1 n4 n5 n6 n7 
+
+in1 = A
+in2 = B
+in3 = C
+in4 = D
+
+n1 = A3
+n2 = B3
+n3 = A4
+n4 = C3
+n5 = E
+n6 = F
+n7 = G
+n8 = H
+n9 = I
+n10 = J
+out1 = Z1
+out2 = Z2
+
+
+
+not1_1 n1 in1
+not1_2 n2 in2
+not1_3 n3 in1
+not1_4 n4 in3
+and2_1 n5 n1 n2
+and2_2 n6 n3 in2
+or2_1 n7 in3 in4
+or2_2 n8 n4 in4
+nand2_1 n9 n5 n6
+nor2_1 n10 n6 n7
+nand2_2 out2 n7 n8
+nor2_2 out1 n9 n10

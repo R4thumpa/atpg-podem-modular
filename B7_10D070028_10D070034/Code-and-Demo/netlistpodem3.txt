@@ -1,0 +1,19 @@
+in1 = A
+in2 = B
+in3 = C
+in4 = D
+in5 = E 
+
+n1 = F
+n2 = G
+n3 = H
+n4 = I
+out1 = Z1
+out2 = Z2
+
+nand2_1 n1 in1 in2
+nand2_2 n2 in2 in3
+nand2_3 n3 in4 n2
+nand2_4 n4 n2 in5
+nand2_5 out1 n1 n3
+nand2_6 out2 n3 n4

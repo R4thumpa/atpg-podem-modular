@@ -1,0 +1,6 @@
+nand2_1 n1 in1 in2
+nand2_2 n2 in2 in3
+nand2_3 n3 in4 n2
+nand2_4 n4 n2 in5
+nand2_5 out1 n1 n3
+nand2_6 out2 n3 n4
