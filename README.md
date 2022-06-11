@@ -1,10 +1,8 @@
 # atpg-podem
 
-Implementation of an ATPG using PODEM(path oriented decision making) algorithm
+Improved and modular ATPG using PODEM algorithm
 
-Foundations of VLSI CAD course project | IIT Bombay
-- Mrinal Joshi
-- Shivangi Mahto
+EL5201-01 Digital System Testing and Testable Design | Institute of Technology Bandung
 
 The project folder contains the following:
 
@@ -19,10 +17,13 @@ The project folder contains the following:
 	Matlab code- podem.m
 	Python code- podem.py
 	netlist.txt
+	netlist2.txt
+	netlist3.txt
+	netlist4.txt
 
 How to get started:
 
-1. The folder contains a "netlist.text" file. It is a spice netlist of nodes of the circuit.
+1. The folder contains multiple netlist files representing different circutis. It is a spice netlist of nodes of the circuit.
 
 2.Go to the “podem.m” file and type in values for the variables “FaultLocation” and “FaultValue” where 
    FaultLocation is the node where fault is to be checked ,values should be taken from the netlist file 
